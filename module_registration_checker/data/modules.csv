@@ -1,0 +1,22 @@
+module_code,title,credits,semester,capacity,running
+CMP-1001,Programming Fundamentals,20,S1,40,Y
+CMP-1002,Databases,20,S1,40,Y
+CMP-1003,Web Development,20,S2,40,Y
+CMP-1004,Computer Systems,20,S2,40,Y
+CMP-1005,Mathematics for Computing,20,Year,40,Y
+CMP-1006,Professional Practice,10,S1,30,Y
+CMP-1007,Data Visualisation,10,S2,6,Y
+CMP-1008,Legacy Systems,20,S1,20,N
+HIS-1001,Medieval Wales,20,S1,30,Y
+HIS-1002,Modern Britain,20,S2,30,Y
+HIS-1003,Historical Methods,20,Year,30,Y
+HIS-1004,Welsh History Through Sources,20,S1,25,Y
+HIS-1005,Public History,20,S2,25,Y
+HIS-1006,Archives and Records,20,S2,25,Y
+HIS-1007,Digital History,20,S2,25,Y
+MAR-1001,Ocean Science,20,S1,30,Y
+MAR-1002,Marine Ecology,20,S2,30,Y
+MAR-1003,Field Skills,20,Year,30,Y
+MAR-1004,Marine Chemistry,20,S1,30,Y
+MAR-1005,Statistics for Scientists,20,S2,30,Y
+MAR-1006,Coastal Processes,20,S1,30,Y

@@ -1,0 +1,26 @@
+student_id,forename,surname,programme,study_mode,status
+S1001,Rhys,Evans,BSc Computer Science,FT,Active
+S1002,Ffion,Jones,BSc Computer Science,FT,Active
+S1003,Tom,Hughes,BSc Computer Science,FT,Active
+S1004,Megan,Williams,BSc Computer Science,FT,Active
+S1005,Owen,Davies,BSc Computer Science,FT,Active
+S1006,Aisha,Khan,BSc Computer Science,FT,Active
+S1007,Dylan,Roberts,BSc Computer Science,FT,Active
+S1008,Cerys,Thomas,BA History,FT,Active
+S1009,Gethin,Morgan,BSc Marine Biology,FT,Active
+S1010,Lowri,Price,BSc Computer Science,FT,Active
+S1011,Harri,Lewis,BSc Marine Biology,FT,Active
+S1012,Sophie,Clarke,BA History,FT,Active
+S1013,Jack,Wilson,BA History,FT,Active
+S1014,Nia,Griffiths,BSc Marine Biology,FT,Active
+S1015,Liam,O'Brien,BSc Computer Science,FT,Withdrawn
+S1016,Seren,Pritchard,BSc Computer Science,FT,Active
+S1017,Hannah,Parry,BA History,FT,Active
+S1018,Iwan,Edwards,BSc Marine Biology,FT,Active
+S1019,Elin,Rees,BSc Marine Biology,FT,Active
+S1020,Daniel,Scott,BSc Computer Science,PT,Active
+S1021,Mari,Jenkins,BA History,PT,Active
+S1022,Priya,Patel,BSc Marine Biology,PT,Active
+S1023,Carwyn,Owen,BA History,FT,Active
+S1024,Zoe,Mitchell,BSc Computer Science,FT,Active
+S1025,Ben,Harris,BSc Marine Biology,FT,Withdrawn
