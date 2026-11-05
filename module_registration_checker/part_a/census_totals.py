@@ -1,13 +1,12 @@
 """
-A list of every active student with their total credits from active registration on the census date,
-including students with no registrations
+This code below generates single list combining 2 requests.
 
-My plan: Loop through "Active" status students, checks each of their registrations is
-active(registered on or before and not dropped on or before) on census date, and then looks up the module's credits and add them
-to total credits. Repeat the same steps but this time compare the dates with 31st Oct and total them and print the differences.
+#1 - A list of every active student with their total credits from active registration on the census date, including students with no registrations.
+#2 - A list of students whose total on the census date is different from their total on 31st of October 2026, showing both figures
 
-Data Handling plan: Handle Dates in DD/MM/YYYY, module codes are trimmed and upper-cased,
-ignore the duplicate module registration for same student and module not in modules.csv adds 0 credits by default.
+My plan: Loop through "Active" status students, checks each of their registrations is active(registered on or before and not dropped on or before) on census date, and then looks up the module's credits and add them
+to total credits. Repeat the same steps but this time compare the dates with 31st Oct and total them and print the differences. Since it requires same loginc, combining them in single code and looping the code twice on census date and later date.
+
 
 """
 
@@ -26,7 +25,7 @@ with open("module_registration_checker/data/registrations.csv") as f:
 with open("module_registration_checker/data/modules.csv") as f:
     modules = list(csv.DictReader(f))
 
-print("student_id, census_total, different?, new_total")
+print("student_id, census_total, different?, total_on_oct_31")
 for student in students:
     if student["status"] != "Active":
         continue
