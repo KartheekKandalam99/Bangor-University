@@ -1,0 +1,9 @@
+student_id,forename,surname,programme,study_mode,status
+T1,Test,OnTarget,BSc Test,FT,Active
+T2,Test,Under,BSc Test,FT,Active
+T3,Test,NoModules,BSc Test,FT,Active
+T4,Test,Withdrawn,BSc Test,FT,Withdrawn
+T5,Test,PartTime,BSc Test,PT,Active
+T6,Test,DuplicateAndTypo,BSc Test,FT,Active
+T7,Test,UnknownModule,BSc Test,FT,Active
+T8,Test,NotRunning,BSc Test,FT,Active

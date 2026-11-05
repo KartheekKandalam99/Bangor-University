@@ -16,13 +16,13 @@ from datetime import datetime
 census_date = datetime(2026, 10, 1)
 october_31 = datetime(2026, 10, 31)
 
-with open("module_registration_checker/data/students.csv") as f:
+with open("data/students.csv") as f:
     students = list(csv.DictReader(f))
 
-with open("module_registration_checker/data/registrations.csv") as f:
+with open("data/registrations.csv") as f:
     registrations = list(csv.DictReader(f))
 
-with open("module_registration_checker/data/modules.csv") as f:
+with open("data/modules.csv") as f:
     modules = list(csv.DictReader(f))
 
 print("student_id, census_total, different?, total_on_oct_31")

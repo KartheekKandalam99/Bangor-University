@@ -1,0 +1,8 @@
+module_code,title,credits,semester,capacity,running
+TST-1001,Module 1,20,S1,30,Y
+TST-1002,Module 2,20,S1,30,Y
+TST-1003,Module 3,20,S1,30,Y
+TST-1004,Module 4,20,S2,30,Y
+TST-1005,Module 5,20,S2,30,Y
+TST-1006,Small Module,20,S2,1,Y
+OLD-1001,Old Module,20,S1,30,N

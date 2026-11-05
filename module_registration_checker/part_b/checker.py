@@ -4,13 +4,13 @@ from datetime import datetime
 
 census_date = datetime(2026, 10, 1)
 
-with open("module_registration_checker/data/students.csv") as f:
+with open("data/students.csv") as f:
     students = list(csv.DictReader(f))
 
-with open("module_registration_checker/data/registrations.csv") as f:
+with open("data/registrations.csv") as f:
     registrations = list(csv.DictReader(f))
 
-with open("module_registration_checker/data/modules.csv") as f:
+with open("data/modules.csv") as f:
     modules = list(csv.DictReader(f))
 
 issues = []
