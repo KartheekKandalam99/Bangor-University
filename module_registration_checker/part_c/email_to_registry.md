@@ -12,7 +12,6 @@ Questions for you:
 1. What credit load should part-time students hold? I've assumed 60.
 2. Can students take modules from other subjects (S1018 takes a History module)?
 3. Is the CMP-1007 limit fixed?
-4. The expected format for the dates in registration table is YYYY-MM-DD - just flagging here because it can be related to Data formatting issue which I guess Digital Services should look into. Or if you have any other idea, please let us know.
 
 Kind Regards,
 Kartheek

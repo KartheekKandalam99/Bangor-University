@@ -1,17 +1,17 @@
 # Module Registration Checker
 
 ## Requirements
-- Python 3.11 or later
+- Python 3.10 or later
 - pytest (pip install pytest)
 
 ## How to run
 Run all commands from inside the module_registration_checker folder.
 
 **Part A (census totals):**
-    python module_registration_checker/part_a/census_totals.py
+    python part_a/census_totals.py
 
 **Part B (checker):**
-    python module_registration_checker/part_b/checker.py
+    python part_b/checker.py
 
 This writes the exceptions report to exceptions.csv.
 
@@ -33,10 +33,17 @@ This writes the exceptions report to exceptions.csv.
 ### CHECKS:
 1. **NO_ACTIVE_REGISTRATIONS** -> Active student with no active registrations.
 2. **WITHDRAWN_WITH_REGISTRATIONS** -> Student is withdrawn but having active registrations.
-3. **FT_CREDITS_NOT_120*** -> Full time students not having expected number of credits - 120
+3. **FT_CREDITS_NOT_120** -> Full time students not having expected number of credits - 120
 4. **PT_CREDITS_NOT_60** -> Part time students not having expected number of credits - 60
 5. **INVALID_MODULE_CODE** -> Registered with an invalid(i.e not following the format)
 6. **UNKNOWN_MODULE_CODE** -> Registered with an unknown(totally invalid module)
 7. **DISALLOWED_MODULE_CODE** -> Registered with a module code which is not running in this academic year
 8. **MODULE_OVER_CAPACITY** - Module has students with over capacity
 9. **DUPLICATE_REGISTRATION** - Registered on same module more than once
+
+
+## Use of AI
+I used Claude as a learning aid and reviewer: to explain Python concepts, review my code,
+suggest the structure for the checker, and help draft the text for Parts C and D, which I
+then edited. I wrote and debugged the Part A & B code myself, chose the checks and assumptions,
+and verified all results by running the code.
